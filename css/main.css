@@ -658,5 +658,19 @@ pre {
 
 .nav-link {
   padding: 0;
-  font-size: small;
+  font-size: inherit;
+}
+
+.nav-pills {
+  line-height: 2.5rem;
+}
+
+@media screen and (max-width: 900px) {
+  .table_of_contents {
+    display: none;
+  }
+
+  .axure-prototype {
+    display: none;
+  }
 }
