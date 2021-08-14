@@ -23,11 +23,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <script src="javascript/progress.js"></script>
+    <script src="javascript/main.js"></script>
   </head>
 
 
   <body id="content">
+    <div id="img-modal" class="modal">
+      <span class="close" id="modal-close">&times;</span>
+      <img class="modal-content" id="modal-content">
+      <div id="modal-caption"></div>
+    </div>
     <div class="progress" id="progress"></div>
     <div id="navigation">
       <span class="navigation_item"><a href="/">Praca</a></span>
@@ -92,13 +97,13 @@
 
           <div class="container">
             <div class="col-md-4">
-              <img src="images/case_studies/green_machine/gm-strona-glowna.png" alt="" />
+              <img class="enlargeable-image" src="images/case_studies/green_machine/gm-strona-glowna.png" alt="" />
             </div>
             <div class="col-md-4">
-              <img src="images/case_studies/green_machine/gm-przepis.png" alt="" />
+              <img class="enlargeable-image" src="images/case_studies/green_machine/gm-przepis.png" alt="" />
             </div>
             <div class="col-md-4">
-              <img src="images/case_studies/green_machine/gm-ocena-przepisu.png" alt="" />
+              <img class="enlargeable-image" src="images/case_studies/green_machine/gm-ocena-przepisu.png" alt="" />
             </div>
           </div>
 
@@ -180,12 +185,12 @@
 
           <h3 id="analiza-i-rekomendacje">Analiza i Rekomendacje</h3>
 
-          <img src="images/case_studies/green_machine/gm-aim-1.png" alt="" />
-          <img src="images/case_studies/green_machine/gm-aim-2.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/gm-aim-1.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/gm-aim-2.png" alt="" />
 
           <h2 id="persony">Persony</h2>
 
-          <p><img src="images/case_studies/green_machine/persona.png" alt="" /></p>
+          <p><img class="enlargeable-image" src="images/case_studies/green_machine/persona.png" alt="" /></p>
           <p>Joanna potrzebuje:</p>
           <ul>
             <li>prostych i szybkich przepisów na potrawy, które są jednocześnie samczne i łatwe w przechowywaniu</li>
@@ -224,7 +229,7 @@
 
           <h3 id="customer-journey-map">Customer Journey Map</h3>
 
-          <img src="images/case_studies/green_machine/customer-journey-map.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/customer-journey-map.png" alt="" />
 
           <h3 id="analiza-inspiracji-i-konkurencji">Analiza Inspiracji i Konkurencji</h3>
 
@@ -232,7 +237,7 @@
             Pracę zaczęto od zebrania inspiracji w 3 istotnych dla projektu obszarach: składanie zamówienia, planowanie oraz przepisy.
           </p>
 
-          <img src="images/case_studies/green_machine/analiza-inspiracji.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/analiza-inspiracji.png" alt="" />
 
           <p>
             Następnie wybrano 5 najważniejszych dla nas inspiracji wraz z uzasadnieniem:
@@ -266,7 +271,7 @@
 
           <p>Na koniec przygotowano zestawienie konkurencyjnych dla nas produktów:</p>
 
-          <img src="images/case_studies/green_machine/konkurencja.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/konkurencja.png" alt="" />
 
           <p>
             Jako główną metaforę produktu wybrano Spotify - projekt miał odzwierciedlać tworzenie własnych playlist w aplikacji
@@ -281,7 +286,7 @@
             podstawowych funkcji aplikacji:
           </p>
 
-          <img src="images/case_studies/green_machine/mvp.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/mvp.png" alt="" />
 
           <h3 id="model-biznesowy">Model Biznesowy</h3>
 
@@ -299,28 +304,28 @@
 
           <h3 id="user-flow-1">User flow - wireflow 1</h3>
 
-          <img src="images/case_studies/green_machine/wireflow-1.png" alt="" />
-          <img src="images/case_studies/green_machine/wireflow-1-ekrany.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/wireflow-1.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/wireflow-1-ekrany.png" alt="" />
 
           <h3 id="user-flow-2">User flow - wireflow 2</h3>
 
-          <img src="images/case_studies/green_machine/wireflow-2.png" alt="" />
-          <img src="images/case_studies/green_machine/wireflow-2-ekrany.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/wireflow-2.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/wireflow-2-ekrany.png" alt="" />
 
           <h3 id="user-flow-3">User flow - wireflow 3</h3>
 
-          <img src="images/case_studies/green_machine/wireflow-3.png" alt="" />
-          <img src="images/case_studies/green_machine/wireflow-3-ekrany.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/wireflow-3.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/wireflow-3-ekrany.png" alt="" />
 
           <h3 id="user-flow-4">User flow - wireflow 4</h3>
 
-          <img src="images/case_studies/green_machine/wireflow-4.png" alt="" />
-          <img src="images/case_studies/green_machine/wireflow-4-ekrany.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/wireflow-4.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/wireflow-4-ekrany.png" alt="" />
 
           <h3 id="user-flow-5">User flow - wireflow 5</h3>
 
-          <img src="images/case_studies/green_machine/wireflow-5.png" alt="" />
-          <img src="images/case_studies/green_machine/wireflow-5-ekrany.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/wireflow-5.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/wireflow-5-ekrany.png" alt="" />
 
           <h2 id="prototypowanie">Prototypowanie</h2>
 
@@ -344,7 +349,7 @@
             ekranu smartfona na którym respondenci wykonywali zadania.
           </p>
 
-          <img src="images/case_studies/green_machine/testy-metodologia.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/testy-metodologia.png" alt="" />
 
           <h3 id="problemy-i-ich-rangowanie">Problemy i ich rangowanie</h3>
 
@@ -357,16 +362,16 @@
             <li><strong>drobne (średnie lub niskie)</strong> - pewien dyskomfort w realizacji procesów w aplikacji</li>
           </ul>
 
-          <img src="images/case_studies/green_machine/blad-krytyczny-1.png" alt="" />
-          <img src="images/case_studies/green_machine/blad-krytyczny-2.png" alt="" />
-          <img src="images/case_studies/green_machine/blad-istotny-1.png" alt="" />
-          <img src="images/case_studies/green_machine/blad-istotny-2.png" alt="" />
-          <img src="images/case_studies/green_machine/blad-istotny-3.png" alt="" />
-          <img src="images/case_studies/green_machine/blad-istotny-4.png" alt="" />
-          <img src="images/case_studies/green_machine/blad-istotny-5.png" alt="" />
-          <img src="images/case_studies/green_machine/blad-drobny-1.png" alt="" />
-          <img src="images/case_studies/green_machine/blad-drobny-2.png" alt="" />
-          <img src="images/case_studies/green_machine/blad-drobny-3.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/blad-krytyczny-1.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/blad-krytyczny-2.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/blad-istotny-1.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/blad-istotny-2.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/blad-istotny-3.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/blad-istotny-4.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/blad-istotny-5.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/blad-drobny-1.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/blad-drobny-2.png" alt="" />
+          <img class="enlargeable-image" src="images/case_studies/green_machine/blad-drobny-3.png" alt="" />
 
           <h3 id="prototyp-po-zmianach">Prototyp po zmianach</h3>
           
