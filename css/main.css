@@ -107,8 +107,8 @@
   }
 }
   
-@media (max-width: 1001x) {
-  .table_of_contents {
+@media (max-width: 800px) {
+  .side_menu {
     display: none;
   }
 
@@ -121,9 +121,7 @@
     object-fit: cover;
     height: 300px;
   }
-}
 
-@media (max-width: 400px) {
   .navigation_right {
     right: 0px;
   }
